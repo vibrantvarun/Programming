@@ -37,11 +37,10 @@ public class CycleDirectedGraph {
 
 
         for (int i=0;i<cg.V;i++){
-            if (!v[i]){
                  if(dfsUtil(v,i,cg,recstack)){
                      return true;
                  }
-            }
+
         }
 
         return false;
