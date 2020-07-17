@@ -98,6 +98,7 @@ public class FleuryEulerianPathPrint {
     }
 
     public static void main(String[] args) {
+        //TimeComplexity O(E*E)
         FleuryEulerianPathPrint g1= new FleuryEulerianPathPrint(4);
         g1.addEdge(0, 1);
         g1.addEdge(0, 2);

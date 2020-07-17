@@ -84,6 +84,7 @@ public class DinceMaxFlowAlgo {
         return total;
     }
     public static void main(String[] args) {
+        //Time Complexity  O(E* (V)^2).
         MaxFlowGraph maxG= new MaxFlowGraph(6);
         DinceMaxFlowAlgo dince= new DinceMaxFlowAlgo();
 

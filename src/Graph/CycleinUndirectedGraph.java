@@ -43,7 +43,7 @@ public class CycleinUndirectedGraph {
 
     }
 
-    static int findMethod2(subset subset[],int i){
+    public static int findMethod2(subset subset[],int i){
 
         if (subset[i].parent!=i){
             findMethod2(subset,subset[i].parent);
@@ -51,7 +51,7 @@ public class CycleinUndirectedGraph {
         return subset[i].parent;
     }
 
-    static void unionMethod2(subset subset[],int x,int y){
+    public static void unionMethod2(subset subset[],int x,int y){
         int xroot=findMethod2(subset,x);
         int yroot=findMethod2(subset,y);
 

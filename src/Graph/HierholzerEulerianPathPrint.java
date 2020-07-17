@@ -54,6 +54,7 @@ public class HierholzerEulerianPathPrint {
     }
 
     public static void main(String[] args) {
+        //TimeComplexity O(V+E)
         HierholzerEulerianPathPrint hier= new HierholzerEulerianPathPrint(3);
         hier.addEdge(0,1);
         hier.addEdge(1,2);
